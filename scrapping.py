@@ -25,7 +25,7 @@ def extract():
     df = (pd.DataFrame(data = [overall]).astype(float))
     df['GMT10'] = dt.today().strftime('%Y-%m-%d-%H:%M')
 
-    with open('ASX3M.csv', 'a') as f:
+    with open('ASX.csv', 'a') as f:
         df.to_csv(f, header = False)
 
 schedule.every(5).minutes.do(extract)
