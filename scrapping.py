@@ -1,4 +1,4 @@
-## The purpose of this scrapper is solely created for educational testing only and it is by no mean for commercial activities.
+## The purpose of this scraper is solely created for educational testing only and it is by no mean for commercial activities.
 
 from lxml import html
 from datetime import datetime as dt
