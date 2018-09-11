@@ -1,10 +1,7 @@
 from lxml import html
-import requests
-import re
+import requests, re, time, schedule
 import pandas as pd
 import numpy as np
-import time
-import schedule
 from datetime import datetime as dt
 
 def job():
