@@ -1,3 +1,4 @@
-The purpose of this scrapper is purely made for educational testing only.
 
-The following scrapper extract data per minute from asx website and convert the retrieved information into csv format.
+The purpose of this scrapper is solely created for educational testing only and it is by no mean for commercial activities.
+
+The following web scraper extract data per 5 minutes from ASX website which it converts the retrieved information into csv format accordingly.
