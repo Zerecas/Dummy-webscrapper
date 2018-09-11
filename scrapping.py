@@ -1,3 +1,5 @@
+## The purpose of this scrapper is solely created for educational testing only and it is by no mean for commercial activities.
+
 from lxml import html
 from datetime import datetime as dt
 import requests, re, time, schedule, pandas as pd, numpy as np
