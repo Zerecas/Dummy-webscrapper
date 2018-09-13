@@ -28,7 +28,8 @@ def extract():
     
     ## Lists Merging
     overall = last + close + chg
-
+    
+    ## Dataframe Creation
     df = (pd.DataFrame(data = [overall]).astype(float))
     df['GMT10'] = dt.today().strftime('%Y-%m-%d-%H:%M')
     
